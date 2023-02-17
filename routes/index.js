@@ -8,4 +8,5 @@ router.use('/users',require('./users'))
 
 
 
-module.exports = router;console.log("router file is loaded")
+module.exports = router;
+console.log("router file is loaded")
