@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const postSchema = new mongoose.Schema({
     content:{
         type: String,
-        required: True
+        required: true
 
     },
     user:{
@@ -14,6 +14,6 @@ const postSchema = new mongoose.Schema({
     timestamps:true
 })
 
-const Post = mongoose.model('User',userSchema);
+const Post = mongoose.model('Post',postSchema);
 
 module.exports = Post;
