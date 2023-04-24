@@ -15,9 +15,8 @@ const port = 8000;
 
 
 app.use(sassMiddleware({
-  
-    src: '/assets/scss',
-    dest: 'assets/css',
+    src: './assets/scss',
+    dest: './assets/css',
     debug: true,
     outputStyle: 'extended',
     prefix:  '/css'  // Where prefix is at <link rel="stylesheets" href="prefix/style.css"/>
